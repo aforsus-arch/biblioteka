@@ -15,7 +15,7 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_exempt
 from pip._internal.configuration import Configuration
-from yookassa_api.schemas import Payment
+#from yookassa_api.schemas import Payment
 
 from .models import Profile, BookLoan, RoomBooking, ReadingRoom, Category, Book, Fine, BookBooking, BookCopy
 
@@ -699,5 +699,50 @@ def cancel_book_booking(request, booking_id):
     return JsonResponse({'success': False, 'error': 'Неверный запрос'})
 
 
+def get_yookassa_auth_headers():
+    """Заглушка вместо настоящих заголовков ЮКассы"""
+    return {
+        'Authorization': 'Basic stub',
+        'Content-Type': 'application/json',
+        'Idempotence-Key': 'stub'
+    }
 
 
+def update_fine_status_from_yookassa(fine):
+    """Заглушка - всегда возвращает False"""
+    print(f"Заглушка: проверка статуса платежа {fine.id}")
+    return False
+
+
+# Переопределяем функции чтобы они не падали
+@login_required
+def create_payment(request, loan_id):
+    """Заглушка для платежей на Railway"""
+    print(f"ЗАГЛУШКА: Платеж для loan_id: {loan_id}")
+
+    if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+        return JsonResponse({
+            'success': False,
+            'error': 'Платежная система временно недоступна'
+        }, status=503)
+    else:
+        messages.info(request, "Платежная система временно недоступна. Пожалуйста, обратитесь в библиотеку.")
+        return redirect('profile')
+
+
+@login_required
+def check_fine_status(request, fine_id):
+    """Заглушка для проверки статуса"""
+    fine = get_object_or_404(Fine, id=fine_id, user=request.user)
+    return JsonResponse({
+        'status': 'unpaid',  # всегда unpaid
+        'paid': False,
+        'paid_at': None,
+        'payment_id': None
+    })
+
+
+@csrf_exempt
+def yookassa_webhook(request):
+    """Заглушка для вебхуков"""
+    return JsonResponse({"status": "ok"})
