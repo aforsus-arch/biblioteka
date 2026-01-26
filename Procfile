@@ -1,1 +1,1 @@
-web: gunicorn diplom.wsgi:application
+web: python manage.py migrate && python manage.py collectstatic --noinput && echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('admin', '', 'admin123') if not User.objects.filter(username='admin').exists() else None" | python manage.py shell && gunicorn diplom.wsgi:application
