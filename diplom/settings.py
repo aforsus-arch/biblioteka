@@ -63,6 +63,8 @@ TEMPLATES = [
     },
 ]
 
+DEBUG = False
+
 WSGI_APPLICATION = 'diplom.wsgi.application'
 
 # ← ОБНОВЛЯЕМ БАЗУ ДАННЫХ ДЛЯ RAILWAY!
@@ -71,7 +73,7 @@ if 'DATABASE_URL' in os.environ:
         import dj_database_url
         DATABASES = {
             'default': dj_database_url.config(
-                default=os.environ.get('DATABASE_URL'),
+                default=os.environ.get('postgresql://postgres:lbqOnDezpqBiKoRSjfyaJqxSPZrckLfo@postgres.railway.internal:5432/railway'),
                 conn_max_age=600,
                 conn_health_checks=True,
             )
