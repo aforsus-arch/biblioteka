@@ -22,7 +22,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-4ut=duzgw^_l+n4!n*8p*
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 # ← ВАЖНО: Обновить ALLOWED_HOSTS!
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',') if os.environ.get('ALLOWED_HOSTS') else ['*']
+ALLOWED_HOSTS = ['web-production-b1ad.up.railway.app', 'localhost', '127.0.0.1']
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-b1ad.up.railway.app'
+]
 
 # Application definition
 INSTALLED_APPS = [
@@ -67,37 +71,21 @@ DEBUG = False
 
 WSGI_APPLICATION = 'diplom.wsgi.application'
 
-# ← ОБНОВЛЯЕМ БАЗУ ДАННЫХ ДЛЯ RAILWAY!
 if 'DATABASE_URL' in os.environ:
-    try:
-        import dj_database_url
-        DATABASES = {
-            'default': dj_database_url.config(
-                default=os.environ.get('postgresql://postgres:lbqOnDezpqBiKoRSjfyaJqxSPZrckLfo@postgres.railway.internal:5432/railway'),
-                conn_max_age=600,
-                conn_health_checks=True,
-            )
-        }
-    except ImportError:
-        # Fallback для Railway
-        DATABASES = {
-            'default': {
-                'ENGINE': 'django.db.backends.postgresql',
-                'NAME': os.environ.get('PGDATABASE', 'railway'),
-                'USER': os.environ.get('PGUSER', 'postgres'),
-                'PASSWORD': os.environ.get('PGPASSWORD', ''),
-                'HOST': os.environ.get('PGHOST', 'localhost'),
-                'PORT': os.environ.get('PGPORT', '5432'),
-            }
-        }
+    DATABASES = {
+        'default': dj_database_url.config(
+            conn_max_age=600,
+            conn_health_checks=True,
+        )
+    }
 else:
-    # Локальная БД для разработки
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
+
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
@@ -124,7 +112,10 @@ USE_TZ = True
 # ← ОБНОВЛЯЕМ НАСТРОЙКИ СТАТИЧЕСКИХ ФАЙЛОВ!
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # ← Куда collectstatic соберет файлы
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]  # ← Где искать статические файлы
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'biblioteka', 'static'),
+# ]
+
 
 # Для Whitenoise (оптимизация статики)
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
