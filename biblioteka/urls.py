@@ -27,4 +27,6 @@ urlpatterns = [
     path('books/<int:book_id>/book/', book_book, name='book_book'),
     path('books/booking/<int:booking_id>/cancel/', cancel_book_booking, name='cancel_book_booking'),
 
+
+
 ]
