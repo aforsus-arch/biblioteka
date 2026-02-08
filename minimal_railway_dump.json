@@ -1,0 +1,2148 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$gXRdQ36ZEhhersa4ODmzAK$2Dr/jk/TmznUWl+1UcQhkHP7ynlseSmrQtgnatUvuzg=",
+      "last_login": "2025-12-25T11:17:19.306Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "aforsus@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-09-08T15:12:25.204Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$2g4ET7AjK9yUpEMyE0NUAG$zfwit6Lk0Ynp7utW3YPMy47+yGWyd9PgpApEKfKHSg8=",
+      "last_login": "2025-12-22T08:40:10.208Z",
+      "is_superuser": true,
+      "username": "MAFix",
+      "first_name": "Максим",
+      "last_name": "Фикс",
+      "email": "MAFix@stud.kpfu.ru",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-09-08T16:31:30Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "!3Oirxh6SXqbqWGxZ7p9SdE7JuWMXyaaW4ZrlE77s",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Anna",
+      "first_name": "Анна",
+      "last_name": "Ковальчук",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-09-08T19:20:09Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "!xv3aYEKGFBcjtngiVR58DjHcGerlqcDmMmLkp7bm",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Milena",
+      "first_name": "Милена",
+      "last_name": "Новицкая",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-09-08T19:21:18Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "!nMCBwCWVOZED2tPzrDHxbzLnqga7gtctRf8e1vAU",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Yaroslava",
+      "first_name": "Ярослава",
+      "last_name": "Попова",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-09-08T19:21:55Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "!1h9dtQCf4WzMQXryznzE4i5Fb2xxCTggJwO29e6s",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Yekaterina",
+      "first_name": "Екатерина",
+      "last_name": "Смирнова",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-09-08T19:23:28Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "!J96j5UwAp3reinPvy5C9Isz3jWSJErME1Dgsyodu",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Mariya",
+      "first_name": "Мария",
+      "last_name": "Кузнецова",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-09-08T19:24:23Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "password": "!9auR1ZDQpVIgdRHgXyb1RgG1DlKJMGBde6R9H2Vd",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Olga",
+      "first_name": "Ольга",
+      "last_name": "Попова",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-09-08T19:24:52Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "password": "!pHL7W5alEtBWe8gvhxp9NF3sMBdpsLybxjHyYMTm",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Vitya",
+      "first_name": "Виктор",
+      "last_name": "Пономарёв",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-09-08T19:52:46Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "password": "!1YRyS3PzxPriXw55k3x4UGmHCIIyFBsQEYAc9spd",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Oleg",
+      "first_name": "Олег",
+      "last_name": "Тюрин",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-09-08T19:53:22Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "biblioteka.branch",
+    "pk": 1,
+    "fields": {
+      "name": "Научной библиотеки им. Н.И. Лобачевского КФУ",
+      "address": "ул. Кремлевская, 35, Казань, Респ. Татарстан, 420111",
+      "phone": "+77777777777",
+      "email": "biblioteka@kpfu.ru",
+      "opening_hours": {
+        "monday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "tuesday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "wednesday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "thursday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "friday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "saturday": {
+          "open": "00:00",
+          "close": "00:00",
+          "is_closed": true
+        },
+        "sunday": {
+          "open": "00:00",
+          "close": "00:00",
+          "is_closed": true
+        }
+      },
+      "total_seats": 320,
+      "is_active": true,
+      "created_at": "2025-09-08T16:38:49.411Z"
+    }
+  },
+  {
+    "model": "biblioteka.branch",
+    "pk": 2,
+    "fields": {
+      "name": "КФУ, Набережночелнинский институт, учебно-библиотечный комплекс",
+      "address": "проспект Мира, 15, Набережные Челны, Республика Татарстан",
+      "phone": "87777777777",
+      "email": "biblioteka@kpfu.ru",
+      "opening_hours": {
+        "monday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "tuesday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "wednesday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "thursday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "friday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "saturday": {
+          "open": "00:00",
+          "close": "00:00",
+          "is_closed": true
+        },
+        "sunday": {
+          "open": "00:00",
+          "close": "00:00",
+          "is_closed": true
+        }
+      },
+      "total_seats": 140,
+      "is_active": true,
+      "created_at": "2025-09-08T16:39:58.555Z"
+    }
+  },
+  {
+    "model": "biblioteka.branch",
+    "pk": 3,
+    "fields": {
+      "name": "Научная библиотека Елабужского института КФУ",
+      "address": "423600, Республика Татарстан, г. Елабуга, ул. Казанская, д. 89.",
+      "phone": "+77777777777",
+      "email": "biblioteka@kpfu.ru",
+      "opening_hours": {
+        "monday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "tuesday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "wednesday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "thursday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "friday": {
+          "open": "08:00",
+          "close": "17:00",
+          "is_closed": false
+        },
+        "saturday": {
+          "open": "00:00",
+          "close": "00:00",
+          "is_closed": true
+        },
+        "sunday": {
+          "open": "00:00",
+          "close": "00:00",
+          "is_closed": true
+        }
+      },
+      "total_seats": 60,
+      "is_active": true,
+      "created_at": "2025-09-08T16:45:05.008Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 1,
+    "fields": {
+      "full_name": "Мартин Гарднер",
+      "birth_year": 1914,
+      "country": "США",
+      "created_at": "2025-09-08T15:36:45.457Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 2,
+    "fields": {
+      "full_name": "Иэн Стюарт",
+      "birth_year": 1945,
+      "country": "Великобритания",
+      "created_at": "2025-09-08T15:36:57.154Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 3,
+    "fields": {
+      "full_name": "Алекс Беллос",
+      "birth_year": 1971,
+      "country": "Великобритания",
+      "created_at": "2025-09-08T15:37:10.834Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 4,
+    "fields": {
+      "full_name": "Стивен Строгац",
+      "birth_year": 1959,
+      "country": "США",
+      "created_at": "2025-09-08T15:37:23.493Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 5,
+    "fields": {
+      "full_name": "Стивен Хокинг",
+      "birth_year": 1942,
+      "country": "Великобритания",
+      "created_at": "2025-09-08T15:38:16.689Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 6,
+    "fields": {
+      "full_name": "Карл Саган",
+      "birth_year": 1934,
+      "country": "США",
+      "created_at": "2025-09-08T15:38:28.474Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 7,
+    "fields": {
+      "full_name": "Митио Каку",
+      "birth_year": 1947,
+      "country": "США",
+      "created_at": "2025-09-08T15:38:40.024Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 8,
+    "fields": {
+      "full_name": "Шон Кэрролл",
+      "birth_year": 1966,
+      "country": "США",
+      "created_at": "2025-09-08T15:38:50.245Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 9,
+    "fields": {
+      "full_name": "Атул Гаванде",
+      "birth_year": 1965,
+      "country": "США",
+      "created_at": "2025-09-08T15:39:03.918Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 10,
+    "fields": {
+      "full_name": "Сиддхартха Мукерджи",
+      "birth_year": 1970,
+      "country": "США",
+      "created_at": "2025-09-08T15:39:14.872Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 11,
+    "fields": {
+      "full_name": "Роберт Сапольски",
+      "birth_year": 1957,
+      "country": "США",
+      "created_at": "2025-09-08T15:39:25.889Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 12,
+    "fields": {
+      "full_name": "Пол Каланити",
+      "birth_year": 1977,
+      "country": "США",
+      "created_at": "2025-09-08T15:39:35.320Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 13,
+    "fields": {
+      "full_name": "Стивен Кинг",
+      "birth_year": 1947,
+      "country": "США",
+      "created_at": "2025-09-08T15:39:45.856Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 14,
+    "fields": {
+      "full_name": "Джордж Оруэлл",
+      "birth_year": 1903,
+      "country": "Великобритания",
+      "created_at": "2025-09-08T15:39:55.755Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 15,
+    "fields": {
+      "full_name": "Харуки Мураками",
+      "birth_year": 1949,
+      "country": "Япония",
+      "created_at": "2025-09-08T15:40:06.928Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 16,
+    "fields": {
+      "full_name": "Джулия Кэмерон",
+      "birth_year": 1948,
+      "country": "США",
+      "created_at": "2025-09-08T15:40:16.305Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 17,
+    "fields": {
+      "full_name": "Юваль Ной Харари",
+      "birth_year": 1976,
+      "country": "Израиль",
+      "created_at": "2025-09-08T15:40:26.868Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 18,
+    "fields": {
+      "full_name": "Джаред Даймонд",
+      "birth_year": 1937,
+      "country": "США",
+      "created_at": "2025-09-08T15:40:38.195Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 19,
+    "fields": {
+      "full_name": "Энтони Бивор",
+      "birth_year": 1946,
+      "country": "Великобритания",
+      "created_at": "2025-09-08T15:40:50.419Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 20,
+    "fields": {
+      "full_name": "Дэн Карлин",
+      "birth_year": 1965,
+      "country": "США",
+      "created_at": "2025-09-08T15:41:00.289Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 21,
+    "fields": {
+      "full_name": "Малкольм Гладуэлл",
+      "birth_year": 1963,
+      "country": "Канада",
+      "created_at": "2025-09-08T15:41:36.102Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 22,
+    "fields": {
+      "full_name": "Стивен Левит",
+      "birth_year": 1967,
+      "country": "США",
+      "created_at": "2025-09-08T15:41:49.500Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 23,
+    "fields": {
+      "full_name": "Дарон Аджемоглу",
+      "birth_year": 1967,
+      "country": "США",
+      "created_at": "2025-09-08T15:42:00.099Z"
+    }
+  },
+  {
+    "model": "biblioteka.author",
+    "pk": 24,
+    "fields": {
+      "full_name": "Тим Харфорд",
+      "birth_year": 1973,
+      "country": "Великобритания",
+      "created_at": "2025-09-08T15:42:10.143Z"
+    }
+  },
+  {
+    "model": "biblioteka.category",
+    "pk": 1,
+    "fields": {
+      "name": "Математика",
+      "parent": null,
+      "description": "",
+      "created_at": "2025-09-08T16:12:39.262Z"
+    }
+  },
+  {
+    "model": "biblioteka.category",
+    "pk": 2,
+    "fields": {
+      "name": "Физика",
+      "parent": null,
+      "description": "",
+      "created_at": "2025-09-08T16:12:41.089Z"
+    }
+  },
+  {
+    "model": "biblioteka.category",
+    "pk": 3,
+    "fields": {
+      "name": "Медицина",
+      "parent": null,
+      "description": "",
+      "created_at": "2025-09-08T16:12:45.417Z"
+    }
+  },
+  {
+    "model": "biblioteka.category",
+    "pk": 4,
+    "fields": {
+      "name": "Литература",
+      "parent": null,
+      "description": "",
+      "created_at": "2025-09-08T16:12:49.636Z"
+    }
+  },
+  {
+    "model": "biblioteka.category",
+    "pk": 5,
+    "fields": {
+      "name": "История",
+      "parent": null,
+      "description": "",
+      "created_at": "2025-09-08T16:12:53.862Z"
+    }
+  },
+  {
+    "model": "biblioteka.category",
+    "pk": 6,
+    "fields": {
+      "name": "Экономика",
+      "parent": null,
+      "description": "",
+      "created_at": "2025-09-08T16:12:58.388Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 1,
+    "fields": {
+      "isbn": "978-5-17-031344-7",
+      "title": "Математические головоломки и развлечения",
+      "publication_year": 2019,
+      "language": "Русский",
+      "description": "Классический сборник занимательных задач, головоломок, игр и парадоксов, который делает абстрактные математические концепции наглядными и увлекательными, развивая логическое и критическое мышление.",
+      "cover_image": "",
+      "pages": 512,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:49:18.072Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 2,
+    "fields": {
+      "isbn": "978-5-17-100276-1",
+      "title": "А ну-ка, догадайся!",
+      "publication_year": 2018,
+      "language": "Русский",
+      "description": "Блестящая коллекция головоломок и математических фокусов, которая учит подходить к решению задач с неожиданной стороны.",
+      "cover_image": "",
+      "pages": 368,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:49:40.132Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 3,
+    "fields": {
+      "isbn": "978-5-17-077334-3",
+      "title": "Краткая история времени: От большого взрыва до черных дыр",
+      "publication_year": 2018,
+      "language": "Русский",
+      "description": "Знаменитое путешествие по космологии, рассказывающее о природе пространства и времени, черных дырах и происхождении Вселенной.",
+      "cover_image": "",
+      "pages": 272,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:50:05.898Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 4,
+    "fields": {
+      "isbn": "978-5-389-13483-9",
+      "title": "Теория всего: Происхождение и судьба Вселенной",
+      "publication_year": 2018,
+      "language": "Русский",
+      "description": "Цикл лекций, в которых Хокинг излагает историю поисков единой теории, объясняющей все фундаментальные взаимодействия во Вселенной.",
+      "cover_image": "",
+      "pages": 176,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:50:28.680Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 5,
+    "fields": {
+      "isbn": "978-5-9614-4695-3",
+      "title": "Чек-лист. Как избежать глупых ошибок, ведущих к фатальным последствиям",
+      "publication_year": 2018,
+      "language": "Русский",
+      "description": "Исследование того, как простой инструмент — чек-лист — помогает справиться со сложностью современных профессий и снизить количество ошибок.",
+      "cover_image": "",
+      "pages": 224,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:50:51.396Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 6,
+    "fields": {
+      "isbn": "978-5-9614-6600-5",
+      "title": "Быть смертным. Медицина и то, что имеет значение в конце",
+      "publication_year": 2016,
+      "language": "Русский",
+      "description": "Размышление о старости, смерти и качестве жизни, где утверждается, что главная цель медицины — обеспечить качество жизни.",
+      "cover_image": "",
+      "pages": 320,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:51:11.091Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 7,
+    "fields": {
+      "isbn": "978-5-17-080115-2",
+      "title": "1984",
+      "publication_year": 2013,
+      "language": "Русский",
+      "description": "Культовый роман-антиутопия, рисующий тоталитарное общество под постоянным контролем \"Большого Брата\".",
+      "cover_image": "",
+      "pages": 320,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:51:32.311Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 8,
+    "fields": {
+      "isbn": "978-5-17-136965-9",
+      "title": "Скотный двор",
+      "publication_year": 2021,
+      "language": "Русский",
+      "description": "Сатирическая притча о животных, которые основали свое общество, но скатились к новой форме тирании.",
+      "cover_image": "",
+      "pages": 144,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:51:52.406Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 9,
+    "fields": {
+      "isbn": "978-5-9614-5134-6",
+      "title": "Sapiens: Краткая история человечества",
+      "publication_year": 2018,
+      "language": "Русский",
+      "description": "Масштабный труд, прослеживающий путь человеческого вида от незначительного животного до \"бога\" современного мира.",
+      "cover_image": "",
+      "pages": 516,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:52:12.431Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 10,
+    "fields": {
+      "isbn": "978-5-9614-5490-3",
+      "title": "Homo Deus: Краткая история будущего",
+      "publication_year": 2018,
+      "language": "Русский",
+      "description": "Размышление о будущем, где человечество стремится к бессмертию, счастью и богоподобным способностям.",
+      "cover_image": "",
+      "pages": 496,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:52:38.232Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 11,
+    "fields": {
+      "isbn": "978-5-00057-622-7",
+      "title": "Гении и аутсайдеры: Почему одним все, а другим ничего?",
+      "publication_year": 2016,
+      "language": "Русский",
+      "description": "Исследование скрытых закономерностей успеха, доказывающее, что выдающиеся достижения — это не только результат таланта и труда.",
+      "cover_image": "",
+      "pages": 288,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:53:01.419Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 12,
+    "fields": {
+      "isbn": "978-5-00057-985-3",
+      "title": "Сила мгновенных решений: Интуиция как навык",
+      "publication_year": 2016,
+      "language": "Русский",
+      "description": "Книга о том, как наш мозг принимает решения за доли секунды и как можно научиться контролировать интуицию.",
+      "cover_image": "",
+      "pages": 320,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:53:24.238Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 13,
+    "fields": {
+      "isbn": "978-5-17-090862-2",
+      "title": "Укрощение бесконечности. История математики от первых чисел до теории хаоса",
+      "publication_year": 2019,
+      "language": "Русский",
+      "description": "Мастерское и увлекательное повествование о развитии математической мысли от древности до наших дней, объясняющее, как идеи математиков меняли наш мир.",
+      "cover_image": "",
+      "pages": 480,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:56:23.578Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 14,
+    "fields": {
+      "isbn": "978-5-17-114024-4",
+      "title": "Космос: эволюция Вселенной, жизни и цивилизации",
+      "publication_year": 2021,
+      "language": "Русский",
+      "description": "Всемирно известный бестселлер, в котором астрофизик и великий популяризатор науки связывает воедино современное понимание Вселенной, историю научных открытий и философские размышления о месте человечества в космосе.",
+      "cover_image": "",
+      "pages": 708,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:56:45.566Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 15,
+    "fields": {
+      "isbn": "978-5-17-140018-8",
+      "title": "Царь всех болезней. Биография рака",
+      "publication_year": 2021,
+      "language": "Русский",
+      "description": "Лауреат Пулитцеровской премии. Грандиозная и пронзительная история борьбы человечества с онкологическими заболеваниями, рассказанная через призму науки, истории и личных историй пациентов.",
+      "cover_image": "",
+      "pages": 896,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:57:07.861Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 16,
+    "fields": {
+      "isbn": "978-5-17-095018-8",
+      "title": "Оно",
+      "publication_year": 2016,
+      "language": "Русский",
+      "description": "Культовый роман ужасов о семерых друзьях, которые в детстве столкнулись с древним злом, пожирающим детей в провинциальном городке, и вынуждены снова встретиться с ним спустя годы.",
+      "cover_image": "",
+      "pages": 1248,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:58:38.432Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 17,
+    "fields": {
+      "isbn": "978-5-17-136684-0",
+      "title": "Ружья, микробы и сталь: Судьбы человеческих обществ",
+      "publication_year": 2021,
+      "language": "Русский",
+      "description": "Лауреат Пулитцеровской премии. Масштабное исследование, отвечающее на вопрос, почему различные человеческие общества развивались столь разными путями, и как географические и экологические факторы предопределили современное мироустройство.",
+      "cover_image": "",
+      "pages": 768,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:59:07.588Z"
+    }
+  },
+  {
+    "model": "biblioteka.book",
+    "pk": 18,
+    "fields": {
+      "isbn": "978-5-9614-3858-3",
+      "title": "Фрикономика",
+      "publication_year": 2016,
+      "language": "Русский",
+      "description": "Новаторская книга, в которой экономист и журналист с помощью данных и экономического анализа исследуют скрытые и неожиданные стороны современной жизни, от причин падения преступности до устройства сумoчных схваток.",
+      "cover_image": "",
+      "pages": 352,
+      "price": "2999.00",
+      "created_at": "2025-09-08T15:59:25.798Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 1,
+    "fields": {
+      "book": 1,
+      "author": 1,
+      "created_at": "2025-09-08T16:00:22.901Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 2,
+    "fields": {
+      "book": 2,
+      "author": 1,
+      "created_at": "2025-09-08T16:00:26.893Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 3,
+    "fields": {
+      "book": 3,
+      "author": 5,
+      "created_at": "2025-09-08T16:01:06.454Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 4,
+    "fields": {
+      "book": 4,
+      "author": 5,
+      "created_at": "2025-09-08T16:01:17.777Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 5,
+    "fields": {
+      "book": 5,
+      "author": 9,
+      "created_at": "2025-09-08T16:01:37.657Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 6,
+    "fields": {
+      "book": 6,
+      "author": 9,
+      "created_at": "2025-09-08T16:01:51.460Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 7,
+    "fields": {
+      "book": 7,
+      "author": 14,
+      "created_at": "2025-09-08T16:02:07.370Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 8,
+    "fields": {
+      "book": 8,
+      "author": 14,
+      "created_at": "2025-09-08T16:02:20.134Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 9,
+    "fields": {
+      "book": 9,
+      "author": 17,
+      "created_at": "2025-09-08T16:02:37.980Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 10,
+    "fields": {
+      "book": 10,
+      "author": 17,
+      "created_at": "2025-09-08T16:02:58.666Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 11,
+    "fields": {
+      "book": 11,
+      "author": 21,
+      "created_at": "2025-09-08T16:03:34.324Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 12,
+    "fields": {
+      "book": 12,
+      "author": 21,
+      "created_at": "2025-09-08T16:04:16.491Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 13,
+    "fields": {
+      "book": 13,
+      "author": 2,
+      "created_at": "2025-09-08T16:04:43.997Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 14,
+    "fields": {
+      "book": 14,
+      "author": 6,
+      "created_at": "2025-09-08T16:06:18.544Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 15,
+    "fields": {
+      "book": 15,
+      "author": 10,
+      "created_at": "2025-09-08T16:07:07.521Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 16,
+    "fields": {
+      "book": 16,
+      "author": 13,
+      "created_at": "2025-09-08T16:07:29.299Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 17,
+    "fields": {
+      "book": 17,
+      "author": 18,
+      "created_at": "2025-09-08T16:08:04.499Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookauthor",
+    "pk": 18,
+    "fields": {
+      "book": 18,
+      "author": 22,
+      "created_at": "2025-09-08T16:08:35.856Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 1,
+    "fields": {
+      "book": 1,
+      "category": 1,
+      "created_at": "2025-09-08T16:13:22.123Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 2,
+    "fields": {
+      "book": 2,
+      "category": 1,
+      "created_at": "2025-09-08T16:13:28.043Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 3,
+    "fields": {
+      "book": 3,
+      "category": 2,
+      "created_at": "2025-09-08T16:13:43.962Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 4,
+    "fields": {
+      "book": 4,
+      "category": 2,
+      "created_at": "2025-09-08T16:13:52.462Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 5,
+    "fields": {
+      "book": 5,
+      "category": 3,
+      "created_at": "2025-09-08T16:14:02.431Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 6,
+    "fields": {
+      "book": 6,
+      "category": 3,
+      "created_at": "2025-09-08T16:14:10.697Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 7,
+    "fields": {
+      "book": 7,
+      "category": 4,
+      "created_at": "2025-09-08T16:14:52.182Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 8,
+    "fields": {
+      "book": 8,
+      "category": 4,
+      "created_at": "2025-09-08T16:14:56.471Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 9,
+    "fields": {
+      "book": 9,
+      "category": 5,
+      "created_at": "2025-09-08T16:15:08.635Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 10,
+    "fields": {
+      "book": 10,
+      "category": 5,
+      "created_at": "2025-09-08T16:15:14.597Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 11,
+    "fields": {
+      "book": 11,
+      "category": 6,
+      "created_at": "2025-09-08T16:15:26.616Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 12,
+    "fields": {
+      "book": 12,
+      "category": 6,
+      "created_at": "2025-09-08T16:15:38.010Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 13,
+    "fields": {
+      "book": 13,
+      "category": 1,
+      "created_at": "2025-09-08T16:15:57.105Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 14,
+    "fields": {
+      "book": 14,
+      "category": 2,
+      "created_at": "2025-09-08T16:16:07.535Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 15,
+    "fields": {
+      "book": 15,
+      "category": 3,
+      "created_at": "2025-09-08T16:16:13.923Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 16,
+    "fields": {
+      "book": 16,
+      "category": 4,
+      "created_at": "2025-09-08T16:16:20.000Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 17,
+    "fields": {
+      "book": 17,
+      "category": 5,
+      "created_at": "2025-09-08T16:16:34.929Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcategory",
+    "pk": 18,
+    "fields": {
+      "book": 18,
+      "category": 6,
+      "created_at": "2025-09-08T16:16:43.006Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 1,
+    "fields": {
+      "book": 1,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T18:59:16.520Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 2,
+    "fields": {
+      "book": 2,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T18:59:23.387Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 3,
+    "fields": {
+      "book": 3,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T18:59:31.086Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 4,
+    "fields": {
+      "book": 4,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T18:59:36.506Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 5,
+    "fields": {
+      "book": 5,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T18:59:43.079Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 6,
+    "fields": {
+      "book": 6,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T18:59:47.731Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 7,
+    "fields": {
+      "book": 7,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T18:59:52.945Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 8,
+    "fields": {
+      "book": 8,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T18:59:57.138Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 9,
+    "fields": {
+      "book": 9,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T19:00:02.828Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 10,
+    "fields": {
+      "book": 10,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T19:00:09.596Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookcopy",
+    "pk": 11,
+    "fields": {
+      "book": 10,
+      "branch": 1,
+      "book_count": 40,
+      "status": "active",
+      "acquisition_date": null,
+      "return_date": null,
+      "condition": "good",
+      "created_at": "2025-09-08T19:00:17.594Z"
+    }
+  },
+  {
+    "model": "biblioteka.profile",
+    "pk": 2,
+    "fields": {
+      "user": 10,
+      "user_type": "reader",
+      "phone": "+77777777777",
+      "birth_date": null,
+      "faculty": "Высшая техническая школа",
+      "student_group": "00001",
+      "library_card": "00002",
+      "created_at": "2025-09-08T19:58:18.543Z",
+      "updated_at": "2025-09-08T19:58:18.543Z"
+    }
+  },
+  {
+    "model": "biblioteka.profile",
+    "pk": 3,
+    "fields": {
+      "user": 9,
+      "user_type": "reader",
+      "phone": "+77777777777",
+      "birth_date": null,
+      "faculty": "Высшая техническая школа",
+      "student_group": "00001",
+      "library_card": "00003",
+      "created_at": "2025-09-08T19:58:30.160Z",
+      "updated_at": "2025-09-08T19:58:30.160Z"
+    }
+  },
+  {
+    "model": "biblioteka.profile",
+    "pk": 4,
+    "fields": {
+      "user": 3,
+      "user_type": "librarian",
+      "phone": "",
+      "birth_date": null,
+      "faculty": "",
+      "student_group": "",
+      "library_card": null,
+      "created_at": "2025-09-08T19:58:45.181Z",
+      "updated_at": "2025-09-08T19:59:29.890Z"
+    }
+  },
+  {
+    "model": "biblioteka.profile",
+    "pk": 5,
+    "fields": {
+      "user": 7,
+      "user_type": "librarian",
+      "phone": "",
+      "birth_date": null,
+      "faculty": "",
+      "student_group": "",
+      "library_card": null,
+      "created_at": "2025-09-08T19:58:54.618Z",
+      "updated_at": "2025-09-08T19:59:25.043Z"
+    }
+  },
+  {
+    "model": "biblioteka.profile",
+    "pk": 6,
+    "fields": {
+      "user": 4,
+      "user_type": "librarian",
+      "phone": "",
+      "birth_date": null,
+      "faculty": "",
+      "student_group": "",
+      "library_card": null,
+      "created_at": "2025-09-08T19:59:00.497Z",
+      "updated_at": "2025-09-08T19:59:00.497Z"
+    }
+  },
+  {
+    "model": "biblioteka.profile",
+    "pk": 7,
+    "fields": {
+      "user": 8,
+      "user_type": "librarian",
+      "phone": "",
+      "birth_date": null,
+      "faculty": "",
+      "student_group": "",
+      "library_card": null,
+      "created_at": "2025-09-08T19:59:05.734Z",
+      "updated_at": "2025-09-08T19:59:05.734Z"
+    }
+  },
+  {
+    "model": "biblioteka.profile",
+    "pk": 8,
+    "fields": {
+      "user": 5,
+      "user_type": "librarian",
+      "phone": "",
+      "birth_date": null,
+      "faculty": "",
+      "student_group": "",
+      "library_card": null,
+      "created_at": "2025-09-08T19:59:11.402Z",
+      "updated_at": "2025-09-08T19:59:11.402Z"
+    }
+  },
+  {
+    "model": "biblioteka.profile",
+    "pk": 9,
+    "fields": {
+      "user": 6,
+      "user_type": "librarian",
+      "phone": "",
+      "birth_date": null,
+      "faculty": "",
+      "student_group": "",
+      "library_card": null,
+      "created_at": "2025-09-08T19:59:17.138Z",
+      "updated_at": "2025-09-08T19:59:17.138Z"
+    }
+  },
+  {
+    "model": "biblioteka.profile",
+    "pk": 11,
+    "fields": {
+      "user": 2,
+      "user_type": "reader",
+      "phone": "+77777777777",
+      "birth_date": "2025-09-09",
+      "faculty": "Высшая техническая школа",
+      "student_group": "00001",
+      "library_card": "00001",
+      "created_at": "2025-09-09T15:07:22.175Z",
+      "updated_at": "2025-09-09T15:07:22.175Z"
+    }
+  },
+  {
+    "model": "biblioteka.profile",
+    "pk": 12,
+    "fields": {
+      "user": 1,
+      "user_type": "guest",
+      "phone": "",
+      "birth_date": null,
+      "faculty": "",
+      "student_group": "",
+      "library_card": null,
+      "created_at": "2025-09-09T17:53:39.944Z",
+      "updated_at": "2025-09-09T17:53:39.949Z"
+    }
+  },
+  {
+    "model": "biblioteka.librarianassignment",
+    "pk": 1,
+    "fields": {
+      "user": 3,
+      "branch": 1,
+      "can_manage_books": true,
+      "can_manage_users": true,
+      "can_manage_bookings": true,
+      "created_at": "2025-09-08T19:25:45.982Z"
+    }
+  },
+  {
+    "model": "biblioteka.librarianassignment",
+    "pk": 2,
+    "fields": {
+      "user": 7,
+      "branch": 1,
+      "can_manage_books": true,
+      "can_manage_users": true,
+      "can_manage_bookings": true,
+      "created_at": "2025-09-08T19:25:51.830Z"
+    }
+  },
+  {
+    "model": "biblioteka.librarianassignment",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "branch": 2,
+      "can_manage_books": true,
+      "can_manage_users": true,
+      "can_manage_bookings": true,
+      "created_at": "2025-09-08T19:25:56.307Z"
+    }
+  },
+  {
+    "model": "biblioteka.librarianassignment",
+    "pk": 4,
+    "fields": {
+      "user": 8,
+      "branch": 2,
+      "can_manage_books": true,
+      "can_manage_users": true,
+      "can_manage_bookings": true,
+      "created_at": "2025-09-08T19:26:01.099Z"
+    }
+  },
+  {
+    "model": "biblioteka.librarianassignment",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "branch": 3,
+      "can_manage_books": true,
+      "can_manage_users": true,
+      "can_manage_bookings": true,
+      "created_at": "2025-09-08T19:26:06.621Z"
+    }
+  },
+  {
+    "model": "biblioteka.librarianassignment",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "branch": 3,
+      "can_manage_books": true,
+      "can_manage_users": true,
+      "can_manage_bookings": true,
+      "created_at": "2025-09-08T19:26:10.904Z"
+    }
+  },
+  {
+    "model": "biblioteka.readingroom",
+    "pk": 1,
+    "fields": {
+      "branch": 1,
+      "name": "Читальный зал",
+      "total_seats": 220,
+      "available_seats": 220,
+      "has_computers": false,
+      "has_outlets": true,
+      "opening_hours": {
+        "monday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "tuesday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "wednesday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "thursday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "friday": {
+          "open": "09:00",
+          "close": "22:00",
+          "is_closed": false
+        },
+        "saturday": {
+          "open": "10:00",
+          "close": "20:00",
+          "is_closed": false
+        },
+        "sunday": {
+          "open": "10:00",
+          "close": "18:00",
+          "is_closed": false
+        }
+      },
+      "description": "",
+      "is_active": true,
+      "created_at": "2025-09-08T18:57:36.909Z"
+    }
+  },
+  {
+    "model": "biblioteka.readingroom",
+    "pk": 2,
+    "fields": {
+      "branch": 2,
+      "name": "Читальный зал",
+      "total_seats": 90,
+      "available_seats": 90,
+      "has_computers": false,
+      "has_outlets": true,
+      "opening_hours": {
+        "monday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "tuesday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "wednesday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "thursday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "friday": {
+          "open": "09:00",
+          "close": "22:00",
+          "is_closed": false
+        },
+        "saturday": {
+          "open": "10:00",
+          "close": "20:00",
+          "is_closed": false
+        },
+        "sunday": {
+          "open": "10:00",
+          "close": "18:00",
+          "is_closed": false
+        }
+      },
+      "description": "",
+      "is_active": true,
+      "created_at": "2025-09-08T18:58:04.114Z"
+    }
+  },
+  {
+    "model": "biblioteka.readingroom",
+    "pk": 3,
+    "fields": {
+      "branch": 3,
+      "name": "Читальный зал",
+      "total_seats": 60,
+      "available_seats": 60,
+      "has_computers": false,
+      "has_outlets": true,
+      "opening_hours": {
+        "monday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "tuesday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "wednesday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "thursday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "friday": {
+          "open": "09:00",
+          "close": "22:00",
+          "is_closed": false
+        },
+        "saturday": {
+          "open": "10:00",
+          "close": "20:00",
+          "is_closed": false
+        },
+        "sunday": {
+          "open": "10:00",
+          "close": "18:00",
+          "is_closed": false
+        }
+      },
+      "description": "",
+      "is_active": true,
+      "created_at": "2025-09-08T18:58:17.144Z"
+    }
+  },
+  {
+    "model": "biblioteka.readingroom",
+    "pk": 4,
+    "fields": {
+      "branch": 1,
+      "name": "Компьютерный зал",
+      "total_seats": 100,
+      "available_seats": 100,
+      "has_computers": true,
+      "has_outlets": true,
+      "opening_hours": {
+        "monday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "tuesday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "wednesday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "thursday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "friday": {
+          "open": "09:00",
+          "close": "22:00",
+          "is_closed": false
+        },
+        "saturday": {
+          "open": "10:00",
+          "close": "20:00",
+          "is_closed": false
+        },
+        "sunday": {
+          "open": "10:00",
+          "close": "18:00",
+          "is_closed": false
+        }
+      },
+      "description": "",
+      "is_active": true,
+      "created_at": "2025-09-08T19:49:14.252Z"
+    }
+  },
+  {
+    "model": "biblioteka.readingroom",
+    "pk": 5,
+    "fields": {
+      "branch": 2,
+      "name": "Компьютерный зал",
+      "total_seats": 50,
+      "available_seats": 50,
+      "has_computers": true,
+      "has_outlets": true,
+      "opening_hours": {
+        "monday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "tuesday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "wednesday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "thursday": {
+          "open": "09:00",
+          "close": "21:00",
+          "is_closed": false
+        },
+        "friday": {
+          "open": "09:00",
+          "close": "22:00",
+          "is_closed": false
+        },
+        "saturday": {
+          "open": "10:00",
+          "close": "20:00",
+          "is_closed": false
+        },
+        "sunday": {
+          "open": "10:00",
+          "close": "18:00",
+          "is_closed": false
+        }
+      },
+      "description": "",
+      "is_active": true,
+      "created_at": "2025-09-08T19:49:29.064Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookbooking",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "book_copy": 3,
+      "branch": 2,
+      "status": "issued",
+      "created_at": "2025-09-09T21:06:06.283Z",
+      "ready_by": "2025-09-17T11:05:48Z",
+      "pickup_deadline": "2025-09-17T15:05:54Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookbooking",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "book_copy": 5,
+      "branch": 2,
+      "status": "issued",
+      "created_at": "2025-09-09T21:06:25.424Z",
+      "ready_by": "2025-09-09T21:06:18Z",
+      "pickup_deadline": "2025-09-10T11:06:19Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookbooking",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "book_copy": 6,
+      "branch": 1,
+      "status": "issued",
+      "created_at": "2025-12-13T11:32:51.744Z",
+      "ready_by": "2025-12-13T11:32:48Z",
+      "pickup_deadline": "2025-12-13T11:32:50Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookbooking",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "book_copy": 1,
+      "branch": 1,
+      "status": "issued",
+      "created_at": "2025-12-13T12:15:56.518Z",
+      "ready_by": "2025-12-13T12:15:54Z",
+      "pickup_deadline": null
+    }
+  },
+  {
+    "model": "biblioteka.bookbooking",
+    "pk": 6,
+    "fields": {
+      "user": 2,
+      "book_copy": 3,
+      "branch": 1,
+      "status": "cancelled",
+      "created_at": "2025-12-22T08:46:46.628Z",
+      "ready_by": "2025-12-22T08:46:46.628Z",
+      "pickup_deadline": "2025-12-25T08:46:46.628Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookbooking",
+    "pk": 7,
+    "fields": {
+      "user": 2,
+      "book_copy": 3,
+      "branch": 1,
+      "status": "cancelled",
+      "created_at": "2025-12-22T08:48:10.363Z",
+      "ready_by": "2025-12-22T08:48:10.363Z",
+      "pickup_deadline": "2025-12-25T08:48:10.363Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookbooking",
+    "pk": 8,
+    "fields": {
+      "user": 1,
+      "book_copy": 3,
+      "branch": 1,
+      "status": "cancelled",
+      "created_at": "2025-12-25T11:32:08.462Z",
+      "ready_by": "2025-12-25T11:32:08.462Z",
+      "pickup_deadline": "2025-12-28T11:32:08.462Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookloan",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "book_copy": 7,
+      "booking": null,
+      "issued_by": 3,
+      "issue_date": "2025-09-09T17:52:15Z",
+      "due_date": "2025-10-09T17:52:14Z",
+      "return_date": null,
+      "returned_to": null,
+      "renewals": 0,
+      "status": "active",
+      "created_at": "2025-09-09T17:52:24.115Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookloan",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "book_copy": 2,
+      "booking": null,
+      "issued_by": 3,
+      "issue_date": "2025-09-09T17:52:48Z",
+      "due_date": "2025-10-09T17:52:48Z",
+      "return_date": "2025-10-09T17:53:18Z",
+      "returned_to": 3,
+      "renewals": 0,
+      "status": "active",
+      "created_at": "2025-09-09T17:52:57.522Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookloan",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "book_copy": 7,
+      "booking": 4,
+      "issued_by": 3,
+      "issue_date": "2025-09-09T18:14:23Z",
+      "due_date": "2025-09-10T18:15:19Z",
+      "return_date": "2025-12-13T11:35:08Z",
+      "returned_to": 3,
+      "renewals": 0,
+      "status": "returned",
+      "created_at": "2025-09-09T18:15:20.567Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookloan",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "book_copy": 1,
+      "booking": 5,
+      "issued_by": 3,
+      "issue_date": "2025-12-13T12:16:13Z",
+      "due_date": "2025-12-13T12:16:29Z",
+      "return_date": null,
+      "returned_to": null,
+      "renewals": 0,
+      "status": "fine_paid",
+      "created_at": "2025-12-13T12:16:36.784Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookloan",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "book_copy": 7,
+      "booking": null,
+      "issued_by": 2,
+      "issue_date": "2025-12-22T06:19:11Z",
+      "due_date": "2025-12-31T06:19:27Z",
+      "return_date": null,
+      "returned_to": null,
+      "renewals": 0,
+      "status": "fine_paid",
+      "created_at": "2025-12-22T06:19:31.654Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookreview",
+    "pk": 1,
+    "fields": {
+      "user": 10,
+      "book": 1,
+      "rating": 5,
+      "review_text": "Эта книга научила меня не бояться сложных задач. После нее экзаменационные билеты показались сущими пустяками. Всем одногруппникам рекомендую!",
+      "is_approved": true,
+      "created_at": "2025-09-08T19:55:03.875Z",
+      "updated_at": "2025-09-08T19:55:03.875Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookreview",
+    "pk": 2,
+    "fields": {
+      "user": 9,
+      "book": 2,
+      "rating": 5,
+      "review_text": "Отлично тренирует логику и нестандартное мышление. Помогла сдать зачет по дискретной математике, когда другие методы не работали. Советую!",
+      "is_approved": true,
+      "created_at": "2025-09-08T19:55:20.259Z",
+      "updated_at": "2025-09-08T19:55:20.259Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookreview",
+    "pk": 3,
+    "fields": {
+      "user": 9,
+      "book": 3,
+      "rating": 5,
+      "review_text": "Лучшая книга, чтобы понять самую сложную физику без формул. Хокинг сделал за ночь до экзамена то, что не смог сделать весь семестр — заставил меня полюбить космологию.",
+      "is_approved": true,
+      "created_at": "2025-09-08T19:55:54.882Z",
+      "updated_at": "2025-09-08T19:55:54.882Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookreview",
+    "pk": 4,
+    "fields": {
+      "user": 10,
+      "book": 4,
+      "rating": 5,
+      "review_text": "Коротко и ясно обо всех главных теориях физики. Идеально, чтобы быстро освежить в голове всю программу перед экзаменом. Очень выручила!",
+      "is_approved": true,
+      "created_at": "2025-09-08T19:56:09.489Z",
+      "updated_at": "2025-09-08T19:56:09.489Z"
+    }
+  },
+  {
+    "model": "biblioteka.bookreview",
+    "pk": 5,
+    "fields": {
+      "user": 9,
+      "book": 9,
+      "rating": 5,
+      "review_text": "Прочитал «Sapiens» для общего развития, а в итоге сдал историю на отлично. Книга дает идеальную систему и причинно-следственные связи, которые легко запомнить.",
+      "is_approved": true,
+      "created_at": "2025-09-08T19:56:22.387Z",
+      "updated_at": "2025-09-08T19:56:22.387Z"
+    }
+  },
+  {
+    "model": "biblioteka.fine",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "loan": 4,
+      "amount": "2999.00",
+      "reason": "Утеря книги: Математические головоломки и развлечения",
+      "status": "paid",
+      "payment_id": "30db0000-000f-5000-b000-1e8eb562d9b2",
+      "yookassa_payment_id": "30db0463-000f-5001-8000-18052fa18109",
+      "created_at": "2025-12-22T06:50:38.604Z",
+      "paid_at": "2025-12-22T07:18:02.290Z"
+    }
+  },
+  {
+    "model": "biblioteka.fine",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "loan": 3,
+      "amount": "2999.00",
+      "reason": "Утеря книги: 1984",
+      "status": "paid",
+      "payment_id": null,
+      "yookassa_payment_id": null,
+      "created_at": "2025-12-22T06:51:37.858Z",
+      "paid_at": "2025-12-22T06:56:35Z"
+    }
+  },
+  {
+    "model": "biblioteka.fine",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "loan": 5,
+      "amount": "2999.00",
+      "reason": "Утеря книги: 1984",
+      "status": "paid",
+      "payment_id": null,
+      "yookassa_payment_id": "30db0472-000f-5000-b000-1fb11a9532e5",
+      "created_at": "2025-12-22T07:11:38.135Z",
+      "paid_at": "2025-12-22T07:18:17.729Z"
+    }
+  }
+]
